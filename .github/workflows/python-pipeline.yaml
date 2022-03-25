@@ -19,8 +19,8 @@ jobs:
       PYLINT_CONFIG: ''
       BANDIT_CONFIG: ''
       DIVE_CONFIG: ''
-      CONTAINER_REGISTRY: 'docker.io'
-      CONTAINER_REPOSITORY: 'martinheinz/pipeline-tester-python'
+      CONTAINER_REGISTRY: 'ghcr.io'
+      CONTAINER_REPOSITORY: 'marble/pipeline-tester-python'
     secrets:
       CONTAINER_REGISTRY_USERNAME: ${{ secrets.CONTAINER_REGISTRY_USERNAME }}
       CONTAINER_REGISTRY_PASSWORD: ${{ secrets.CONTAINER_REGISTRY_PASSWORD }}
